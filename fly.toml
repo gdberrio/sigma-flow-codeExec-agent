@@ -1,6 +1,6 @@
-# fly.toml file generated for agent-image on 2022-11-05T10:14:08Z
+# fly.toml file generated for agent-python on 2022-11-10T19:12:32Z
 
-app = "agent-image"
+app = "agent-python"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -13,7 +13,7 @@ processes = []
 
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 80
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
